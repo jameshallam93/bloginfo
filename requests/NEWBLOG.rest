@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJhc2hpZGEgQiIsImlkIjoiNjAwYWIyNzNlM2QzZjI0NWI4MWI5ZDZlIiwiaWF0IjoxNjExMzI2MDE1fQ.O-N0YWtZ8dCwDdMaqzX9xmMd9cJsG3JJF9FTS9-HQ7E
+
+{
+    "title": "Ensuring refactoring works",
+    "author":"James",
+    "url":"https://localhost:3003",
+    "likes": 4
+}
